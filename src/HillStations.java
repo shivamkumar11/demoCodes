@@ -7,14 +7,17 @@ public abstract class HillStations {
         HillStations monali = new Monali();
         HillStations gulmarg = new Gulmarg();
         HillStations mussoorie = new Mussoorie();
+
         // calling monali location method here to access its location
         monali.location();
         // calling monali famousFor method here
         monali.famousFor();
+
         //  calling mussoorie location method here to access its location
         mussoorie.location();
         //   calling monali famousFor method here
         mussoorie.famousFor();
+
         //   calling gulmarg location method here to access its location
         gulmarg.location();
         // calling monali famousFor method here
